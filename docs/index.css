@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -12,24 +12,26 @@ a {
     color: rgba(0, 128, 128, 0.8);
 }
 
-main {
-    /* display: none; */
-}
-/*header*/
+
 header {
     background-color: teal;
-    height: 65px;
-    padding: 0 75px 0 50px;
+    padding: 0 3.5% 0 7%;
+    height: 60px;
 }
 
 h1 {
     color: white;
     display: inline;
-    margin: 18px 50% 0 5px;
+    margin: 1em 50% 0 0.5%;
     position: relative;
-    bottom: 5px;
-    right: 10px;
+    bottom: 0.2em;
+    right: 1%;
 }
+
+/* header h1, header > img {
+    position: relative;
+    bottom: 0.5em;
+} */
 
 h1 span {
     opacity: 0.5;
@@ -53,14 +55,14 @@ sup {
 }
 
 .logo {
-    margin: 12px 2px 0 50px;
+    margin: 0.12em 0.2em 0 ; 
     position: relative;
-    top: 3px;
-    height: 42px;
+    top: 0.5em;
+    height: 3em;
 }
 
 .get {
-    margin-bottom: 7px;
+    padding: 0.8em;
 }
 
 
@@ -73,9 +75,10 @@ a:hover {
 
 /*navigation*/
 nav {
+    background-color: #fff;
     height: 22px;
     border-bottom: 3px solid silver;
-    padding: 5px 5px 0 20px;
+    /* padding: 5px 5px 0 20px; */
 }
 
 nav span {
