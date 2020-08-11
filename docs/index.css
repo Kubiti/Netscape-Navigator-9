@@ -62,6 +62,10 @@ sup {
     padding: 0.5em 0;
 }
 
+#navi {
+    display: none;
+}
+
 
 
 a:hover {
@@ -203,11 +207,7 @@ li {
 /*main*/
 
 
-hr {
-    margin: 0 100px;
-    border: 1px solid teal;
-    opacity: 0.75;
-}
+
 
 /*footer*/
 footer {
@@ -289,12 +289,122 @@ footer {
     
     .screen {
         display: block;
-        margin: 5px 0 0 188px;
-        text-align: end;
+        margin: 5px;
+        text-align: left;
     }
     
+    .right img {
+        width: 35%;
+        height: auto;
+    }
+
+    footer {
+        margin: 10px 7%;
+        text-align: center;
+    }
+
+    hr {
+        margin: 0 7%;
+        border:  3.5% 0 7%;
+    }
+}
 
 
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 
+body {
+    font-size: 2vw;
+}
+
+h1 {
+    margin: 1em 10vw 0 0.4%;
+    position: relative;
+    bottom: 0.3em;
+    right: 1%;
+}
+
+sub {
+    position: relative;
+    right: 4px;
+    top: 0.001em;
+}
+
+sup {
+    position: relative;
+    right: 1px;
+    bottom: 2px;
+}
+
+.logo {
+    margin: 0.12em 0.1em 0 ; 
+    position: relative;
+    top: 0.1em;
+    height: 3em;
+}
+
+.get {
+    padding: 0.5em 0;
+    display: none;
+}
+
+#navi {
+    display: block;
+    height: 70%;
+    margin-top: 0.7em;
+    float: right;
+    opacity: 0.7;
+}
+
+#hidden {
+    font-size: 2vw;
+    display: block;
+    font-weight: 600;
+    padding: 0.3em;
+}
+
+
+nav {
+    /* display: none; */
+    background-color: teal;
+    height: 13em;
+    margin: 0.5em;
+    text-align: center;
+    padding: 0;
+}
+
+nav a {
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    padding: 0.3em;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+a[href='for'] {
+    border-bottom: none;
+}
+
+nav span {
+    display: none;
+}
+
+h2 {
+    text-align: left;
+    margin: 1.5em 0 0 3em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.parent {
+    display: none;
+    grid-template-rows: 2fr 1fr;
+}
+
+/* .left {
+    width: 
+} */
 
 }
