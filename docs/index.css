@@ -107,6 +107,7 @@ nav sub {
 main {
     min-width: 600px;
 }
+
 .parent {
     margin: 7vh 100px 2em 100px;
     display: flex;
@@ -114,6 +115,10 @@ main {
 
 h2 {
     color: sandybrown;
+}
+
+#headtab, #h3tab {
+    display: none;
 }
 
 .left {
@@ -263,6 +268,8 @@ footer {
     }
 
     
+
+    
     .left {
         min-width: 50%;
         text-align: justify;
@@ -364,12 +371,13 @@ sup {
 
 
 nav {
-    /* display: none; */
+    display: none;
     background-color: teal;
     height: 13em;
     margin: 0.5em;
     text-align: center;
     padding: 0;
+    z-index: 100;
 }
 
 nav a {
@@ -394,13 +402,26 @@ h2 {
     margin: 1.5em 0 0 3em;
 }
 
-h3 {
+
+#headtab, #h3tab {
+    display: block;
     text-align: center;
 }
 
-.parent {
+#head2, #h3 {
     display: none;
+}
+
+
+
+#h3tab {
+    padding-left: 3em;
+}
+
+.parent {
+    /* display: none; */
     grid-template-rows: 2fr 1fr;
+    z-index: 1;
 }
 
 /* .left {

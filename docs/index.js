@@ -2,15 +2,24 @@
 // header1.style.display = 'none';
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-    //Do work
+
+    let devicevw = window.matchMedia('(max-width: 768px)');
+
+    //document.getElementById('head2').innerText = devicevw.matches;
+
     let nav = document.getElementById('navi');
     let bar = document.getElementById('navigate');
     nav.addEventListener('click', () => {
-        // bar.style.display = 'none';
+        if (bar.style.display === 'none') {
+            bar.style.display = 'block';
+        }
+        else {
+            bar.style.display = 'none';
+        }
     })
     
     // bar.style.display = 'none';
-    console.log(navi);
+    console.log(bar.style.display);
 });
 
 
