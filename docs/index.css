@@ -412,20 +412,54 @@ h2 {
     display: none;
 }
 
-
+#headtab {
+    margin-top: 0.5em;
+}
 
 #h3tab {
-    padding-left: 3em;
+    padding-left: 3.5em;
 }
 
 .parent {
-    /* display: none; */
-    grid-template-rows: 2fr 1fr;
+    padding: 0 !important;
+    margin: 1.5em 4em;
+    grid-template-rows: 1fr 1fr;
     z-index: 1;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
 
-/* .left {
-    width: 
+.left {
+    display: block;
+    margin-right: 1em;
+    padding: 0; 
+} 
+
+
+/* .right {
+    
 } */
+
+.right > p {
+    text-align: center;
+    padding-right: 2em;
+}
+
+.right > img {
+    display: block;
+    margin: 0 25%;
+    height: 15%;
+    width: auto;
+}
+
+#exten {
+    display: none;
+}
+
+footer {
+    text-align: left;
+    margin: 2em;
+}
 
 }
