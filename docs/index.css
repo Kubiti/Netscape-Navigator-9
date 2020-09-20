@@ -281,11 +281,6 @@ footer {
     .left p {
         display: inline-block;
     }
-    
-    /* .left img {
-        display: inline-block;
-    } */
-    
 
     
     .left h3 {
@@ -319,7 +314,7 @@ footer {
 
 
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 body {
     font-size: 2vw;
@@ -490,5 +485,24 @@ footer {
     .right img {
         display: inline-block;
         margin: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        text-align: left;
+        margin: 2em;
+    }
+
+    #headtab, #h3tab {
+        text-align: left;
+        padding: 0 2em;
+    }
+    #h3tab {
+        padding-left: 8em;
+    }
+    .left p {
+        max-width: 70%;
+        padding: 0;
     }
 }
