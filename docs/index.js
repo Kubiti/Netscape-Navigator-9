@@ -13,15 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     nav.addEventListener('click', () => {
         if (bar.style.display === 'none') {
             bar.style.display = 'block';
-            Array.prototype.forEach.call(hide, element => {
-                element.style.zIndex = '1';
-            });
         }
         else {
             bar.style.display = 'none';
-            Array.prototype.forEach.call(hide, element => {
-                element.style.zIndex = '1';
-            });
         }
     })
 
