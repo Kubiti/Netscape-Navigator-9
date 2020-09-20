@@ -186,7 +186,7 @@ li {
 .screen {
     display: block;
     margin: 5px 0 0 188px;
-    text-align: end;
+    text-align: right;
 }
 
 .right div {
@@ -221,7 +221,7 @@ footer {
 }
 /*footer*/
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     header {
         padding: 0.5em 7% 0 7%;
         height: 4em;
@@ -297,7 +297,8 @@ footer {
     .screen {
         display: block;
         margin: 5px;
-        text-align: left;
+        text-align: center;
+        margin-left: 0;
     }
     
     .right img {
@@ -315,6 +316,7 @@ footer {
         border:  3.5% 0 7%;
     }
 }
+
 
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -377,7 +379,8 @@ nav {
     margin: 0.5em;
     text-align: center;
     padding: 0;
-    z-index: 100;
+    z-index: 100000;
+    position: relative;
 }
 
 nav a {
@@ -387,6 +390,8 @@ nav a {
     padding: 0.3em;
     color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+    position: relative;
 }
 
 a[href='for'] {
@@ -436,6 +441,14 @@ h2 {
     padding: 0; 
 } 
 
+.left p {
+    padding-right: 5em;
+}
+
+.screen {
+    text-align: center;
+    margin: 0;
+}
 
 /* .right {
     
@@ -443,7 +456,7 @@ h2 {
 
 .right > p {
     text-align: center;
-    padding-right: 2em;
+    padding-right: 5em;
 }
 
 .right > img {
@@ -462,4 +475,20 @@ footer {
     margin: 2em;
 }
 
+}
+
+@media only screen and (max-width: 600px) {
+    .parent {
+        display: block;
+
+    }
+
+    .left p {
+        padding-right: 5em;
+    }
+
+    .right img {
+        display: inline-block;
+        margin: 0;
+    }
 }
