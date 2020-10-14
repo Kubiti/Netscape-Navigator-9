@@ -1,0 +1,4 @@
+// INSTRUCTIONS
+You are to create a clone of the Netscape Navigator page given. Upload to github and send the repository link as well as the github pages link to the link given. 
+You will be provided with the resources to complete the project via Google drive.
+You are to use only HTML and CSS to complete this challenge. Do not use any preproccessors, libraries or frameworks.
