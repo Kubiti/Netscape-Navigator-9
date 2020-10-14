@@ -1,5 +1,4 @@
-// let header1 = document.getElementById('head2');
-// header1.style.display = 'none';
+'use strict'
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
