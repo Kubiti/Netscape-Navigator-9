@@ -473,6 +473,10 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    main {
+        min-width: 80%;
+    }
+    
     .parent {
         display: block;
 
@@ -485,6 +489,15 @@ footer {
     .right img {
         display: inline-block;
         margin: 0;
+    }
+
+    ul li::before {
+        display: none;
+    }
+
+    li {
+        top: -2.85em !important;
+        bottom: 0 !important;
     }
 }
 
@@ -504,5 +517,44 @@ footer {
     .left p {
         max-width: 70%;
         padding: 0;
+    }
+
+    li {
+        top: -6.8vw !important;
+        left: 8.1vw !important;
+        bottom: 0 !important;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    li {
+        top: -7vw !important;
+        left: 9vw !important;
+        bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    li {
+        top: -8vw !important;
+        left: 10vw !important;
+        bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    li {
+        top: -9vw !important;
+        left: 11.5vw !important;
+        bottom: 0 !important;
+    }
+
+    .right img {
+        /* height: 10; */
+        width: 40%;
     }
 }
